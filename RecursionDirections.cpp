@@ -8,7 +8,7 @@ This Problem is to show How RECURSION works!
 
 /**
  * Printing the numbers 1 to N using Recursion 
- * Increasing and Decreasing
+ * Increasing and Decreasing Order
 **/
 
 #include<bits/stdc++.h>
@@ -39,7 +39,7 @@ int main(){
     cout<<"Enter the value of 'N' till you want to Print numbers :"<<endl;
     int n; cin>>n;
     //Increasing(n);
-    dec(n);
+    Decreasing(n);
 
     return 0;
 }
